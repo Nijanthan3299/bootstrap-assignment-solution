@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <ul class="nav navbar-nav">
+      <a data-toggle="tab" class="navbar-brand" href="#brand">Brand</a>
+          <li class="active"><a data-toggle="tab" href="#link1">Link 1</a></li>
+      <li><a data-toggle="tab" href="#link2">Link 2</a></li>
+      <li><a data-toggle="tab" href="#home">Home!</a></li>
+    </ul>
+   <a data-toggle="tab" class="btn btn-default navbar-btn" href="#button" role="button">This is a Button</a>
+     </div>
+    <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container">
+<div class="jumbotron">
+  <h1>Bootstrap for Web Design</h1>
+  <p>The Navbar</p>
+</div>
+ <div class="tab-content">
+ <div id="brand" class="tab-pane fade">
+      
+      <p>Bootstrap is a free front-end framework for faster and easier web development
+        Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+         Bootstrap also gives you the ability to easily create responsive designs.Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open source product in August 2011 on GitHub.
+        In June 2014 Bootstrap was the No.1 project on GitHub!
+         
+        </p>
+    </div>
+    <div id="link1" class="tab-pane fade in active">
+      <h3></h3>
+      <p>The first link for your reference is <a href="https://www.w3.org/">W3C</a></p>
+    </div>
+    <div id="link2" class="tab-pane fade">
+      <h3></h3>
+      <p>The second link for your reference is <a href="https://www.w3schools.com/bootstrap/">Bootstrap</a></p>
+    </div>
+    <div id="home" class="tab-pane fade">
+      <h3></h3>
+      <p>The third link for your reference is <a href="https://www.w3schools.com/bootstrap/bootstrap_buttons.asp">Home</a></p>
+    </div>
+    <div id="button" class="tab-pane fade">
+      <h3></h3>
+      <p>This is a button</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
